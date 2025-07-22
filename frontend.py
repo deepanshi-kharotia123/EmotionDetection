@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pickle
 import re
-from keras.models import load_model
+from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from nltk.corpus import stopwords
 from nltk.stem import WordNetLemmatizer
