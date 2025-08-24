@@ -119,10 +119,7 @@ st.markdown(
 # Sidebar
 with st.sidebar:
     st.header("About")
-    st.write(
-        "This demo loads a trained Keras model (`emotion_model.h5`) and a tokenizer "
-        "to classify the emotion expressed in text."
-    )
+    
     st.write(f"• Sequence max length: **{MAX_LEN}**")
     st.write("• NLTK: stopwords + lemmatization")
     st.divider()
@@ -211,8 +208,7 @@ st.markdown(
     """
     <hr />
     <p style="text-align:center; color:#9ca3af">
-      Built with Streamlit + TensorFlow. Ensure <code>emotion_model.h5</code> and
-      <code>tokenizer.pkl</code> are present in this folder.
+      Built with Streamlit + TensorFlow. 
     </p>
     """,
     unsafe_allow_html=True,
